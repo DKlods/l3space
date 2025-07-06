@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USSR.Space: Health & Fitness AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'soviet-red': '#CC0000',
+              'dark-primary': '#121212',
+              'dark-secondary': '#1E1E1E',
+              'dark-tertiary': '#2A2A2A',
+              'light-primary': '#F5F5F5',
+              'light-secondary': '#FFFFFF',
+              'light-tertiary': '#E0E0E0',
+              'text-dark-primary': '#121212',
+              'text-dark-secondary': '#4B5563',
+              'text-light-primary': '#EAEAEA',
+              'text-light-secondary': '#B0B0B0',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+             animation: {
+                'fade-in': 'fadeIn 0.5s ease-in-out',
+            },
+            keyframes: {
+                fadeIn: {
+                    '0%': { opacity: '0' },
+                    '100%': { opacity: '1' },
+                },
+            }
+          },
+        },
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.8.0",
+    "recharts": "https://esm.sh/recharts@^2.12.7",
+    "react-chartjs-2": "https://esm.sh/react-chartjs-2@^5.2.0",
+    "chart.js": "https://esm.sh/chart.js@^4.4.1",
+    "chart.js/": "https://esm.sh/chart.js@^4.4.1/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^6.22.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="font-sans">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

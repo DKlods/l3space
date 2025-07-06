@@ -1,0 +1,5 @@
+{
+  "name": "USSR.Space: Health & Fitness AI",
+  "description": "An AI-powered platform to generate personalized health, fitness, and nutrition plans based on user goals. This application provides a streamlined interface for selecting a fitness objective and receiving a custom-tailored workout and diet regimen from an AI coach.",
+  "requestFramePermissions": []
+}
